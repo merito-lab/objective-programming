@@ -157,15 +157,15 @@ Zestaw testów weryfikujących funkcjonalność klasy `Osoba` znajduje się w pl
 #### Testy walidacji
 
 6. **Test 6: Walidacja dat** (`TestWalidacjiDat()`)
-   - ✅ Data śmierci wcześniejsza niż urodzenia
-   - ✅ Data urodzenia późniejsza niż śmierci
-   - ✅ Poprawne daty (1950-2020)
-   - ✅ Ta sama data urodzenia i śmierci (przypadek graniczny)
+   - Data śmierci wcześniejsza niż urodzenia
+   - Data urodzenia późniejsza niż śmierci
+   - Poprawne daty (1950-2020)
+   - Ta sama data urodzenia i śmierci (przypadek graniczny)
 
 7. **Test 7: Walidacja tekstu** (`TestWalidacji()`)
-   - ✅ Pusté imię (setter `Imię`)
-   - ✅ Pusté `ImięNazwisko` w konstruktorze
-   - ✅ Osoba bez daty urodzenia (właściwość `Wiek` zwraca `null`)
+   - Pusté imię (setter `Imię`)
+   - Pusté `ImięNazwisko` w konstruktorze
+   - Osoba bez daty urodzenia (właściwość `Wiek` zwraca `null`)
 
 ### Jak uruchomić testy
 
@@ -203,7 +203,7 @@ dotnet bin/Debug/net[VERSION]/[PROJECT_NAME].dll
 
 **Testy walidacji** powinny wyświetlić:
 
-- ✅ Komunikaty o wykryciu nieprawidłowych wartości
+- Komunikaty o wykryciu nieprawidłowych wartości
 - Szczegóły błędów z `ArgumentException`
 - Wszystkie testy walidacji powinny być oznaczone jako "✅ Wykryto..."
 

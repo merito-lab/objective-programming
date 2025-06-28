@@ -183,3 +183,4 @@ Klasa rzuca następujące wyjątki:
 - **`ArgumentNullException`**: gdy parametry wektorów lub tablice są `null`
 - **`IndexOutOfRangeException`**: gdy indeks jest poza zakresem tablicy
 - **`DivideByZeroException`**: przy próbie dzielenia przez zero (z tolerancją dla błędów numerycznych)
+
